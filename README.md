@@ -6,6 +6,10 @@ Not sure if it is a configuration issue nor which project to place it.
 
 start the application... after a few seconds you will encounter the following error message:
 
+
+> i used intellij run on Application.java. 
+> `mvn mn:run` is not having a different issue (though the actual problem is class not found)
+
 ```java
 Exception in thread "BatchSpanProcessor_WorkerThread-1" java.lang.NoClassDefFoundError: io/opentelemetry/semconv/resource/attributes/ResourceAttributes
 	at com.google.cloud.opentelemetry.trace.TraceVersions.readSdkVersion(TraceVersions.java:34)
