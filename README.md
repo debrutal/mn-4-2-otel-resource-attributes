@@ -1,6 +1,6 @@
 # Project for a specific issue at micronaut.
 
-Not sure if it is a configuration issue nor which project to place it.
+Open Telemetry was upgraded to the latest version, which was not reflected in the classes being used, as the Class `ResourceAttributes` was moved from `io.opentelemetry.semconv.resources.attributes` to`io.opentelemetry.semconv`
 
 # Retest:
 
